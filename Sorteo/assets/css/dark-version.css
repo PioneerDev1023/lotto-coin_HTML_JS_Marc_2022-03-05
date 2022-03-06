@@ -56,8 +56,11 @@
   background-color: var(--dark-main-color);
 }
 .main-dark-version table tbody tr:nth-child(even) {
-  background-color: #32346a;
+  background-color: var(--dark-main-color);
 }
+/* .main-dark-version table tbody tr:nth-child(even) {
+  background-color: #32346a;
+} */
 .main-dark-version .number-list li {
   color: var(--dark-para-color);
 }

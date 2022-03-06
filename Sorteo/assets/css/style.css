@@ -1113,9 +1113,9 @@ table th {
 table td {
   padding: 18px 0;
 }
-table tbody tr {
+/* table tbody tr {
   border-bottom: 1px solid #e7e9ed;
-}
+} */
 table tbody tr:last-child {
   border-bottom: none;
 }
@@ -1162,7 +1162,7 @@ table tr td:first-child {
   color: #ffffff;
   box-shadow: 0 10px 10px 0 rgba(51, 181, 247, 0.15);
 }
-.number-list li.win-mark {
+.number-list li.activered {
   background-color: var(--winmark-color);
   border-color: var(--winmark-color);
   color: #ffffff;
