@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Sorteo - Lotto HTML template</title>
+<link rel="alternate" type="application/rss+xml" title="frittt.com" href="feed/index.html">
+<link href="http://fonts.googleapis.com/css?family=Raleway:700,300" rel="stylesheet"
+        type="text/css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/prettify.css">
+</head>
+<body>
+<div class="wrapper">
+<nav>
+ 
+  	<div style="width:150px;margin:0 auto;">
+    	<h1><a href=""><img style="padding:10px 0;" src="img/logo.png" alt="" /></a></h1>
+    </div>
+    
+
+</nav>
+<header>
+  <div class="container">
+    <h2 class="lone-header">Sorteo Documentation</h2>
+  </div>
+</header>
+<section>
+  <div class="container">
+    <ul class="docs-nav">
+      <li><strong>Getting Started</strong></li>
+      <li><a href="#welcome" class="cc-active">Welcome</a></li>
+      <li><a href="#folder" class="cc-active">Folder Arrange</a></li>
+      <li class="separator"></li>
+      <li><strong>Customization</strong></li>
+      <li><a href="#logotype" class="cc-active">Logo Type</a></li>
+      <li><a href="#menubar" class="cc-active">Menu Bar</a></li>
+    </ul>
+    <div class="docs-content">
+      <h2> Getting Started</h2>
+      <h3 id="welcome"> Welcome</h3>
+      <p>Thanks for purchasing our theme :)</p>
+      
+      <p> It is our great pleasure that you purchased our theme. And we want to tell you that you don't need to write any codes for this theme. Just follow some instructions for customizing the theme.</p>
+	<p>If you have any questions, feel free to contact us at <a href="https://themeforest.net/user/pixelaxis/portfolio"><b>pixelaxis</b></a>.</p>
+      
+      <h3 id="folder"> Folder Arrange</h3>
+      <p>Unzip the sorteo-lotto-html-template. There are all the template files in this folder. You can open the following files for viewing in browser.</p>
+	  <ol>
+        <li><b>/css</b> — folder with css files.</li>
+        <li><b>/fonts</b> — folder with icon fonts.</li>
+        <li><b>/images</b> — folder with image files.</li>
+        <li><b>/js</b> — folder with Javascript files.</li>
+        <li><b>home-one.html</b> — Default home page</li><br />
+        <li><b>home-two.html</b> — Dark home version</li><br />
+      </ol>
+      <hr>
+      <h3 id="logotype">Logo Type</h3>
+      <p>To change logotype in the navigation panel, find image <b>images/logo.png</b> and replace it with your logo.</p>
+	  <h5><i>Note: Keep your logo inside the <b>imaegs</b> folder. The logo size should be minimum 100x40 pixel.</i></h5>
+      <br />
+      <h3 id="menubar"> Menu Bar with logo</h3>
+
+     <p>This is logo and navigation codes.</p>	
+      <pre class="prettyprint">
+        &lt;div class=&quot;header-bottom&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+          &lt;nav class=&quot;navbar navbar-expand-xl&quot;&gt;
+            &lt;a class=&quot;site-logo site-title&quot; href=&quot;home-one.html&quot;&gt;&lt;img src=&quot;assets/images/logo.png&quot; alt=&quot;site-logo&quot;&gt;&lt;/a&gt;
+            &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbarSupportedContent&quot; aria-controls=&quot;navbarSupportedContent&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+              &lt;span class=&quot;menu-toggle&quot;&gt;&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarSupportedContent&quot;&gt;
+              &lt;ul class=&quot;navbar-nav main-menu ml-auto&quot;&gt;
+                &lt;li class=&quot;menu_has_children&quot;&gt;&lt;a href=&quot;#0&quot;&gt;Home&lt;/a&gt;
+                  &lt;ul class=&quot;sub-menu&quot;&gt;
+                    &lt;li&gt;&lt;a href=&quot;home-one.html&quot;&gt;Home One&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;home-two.html&quot;&gt;Home Two&lt;/a&gt;&lt;/li&gt;
+                  &lt;/ul&gt;
+                &lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;lottery-result.html&quot;&gt;results&lt;/a&gt;
+                &lt;li class=&quot;menu_has_children&quot;&gt;&lt;a href=&quot;#0&quot;&gt;lotteries&lt;/a&gt;
+                  &lt;ul class=&quot;sub-menu&quot;&gt;
+                    &lt;li&gt;&lt;a href=&quot;all-lottery-one.html&quot;&gt;all lotteries One&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;all-lottery-two.html&quot;&gt;all lotteries Two&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;all-lottery-three.html&quot;&gt;all lotteries three&lt;/a&gt;&lt;/li&gt;
+                  &lt;/ul&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;menu_has_children&quot;&gt;&lt;a href=&quot;#0&quot;&gt;blog&lt;/a&gt;
+                  &lt;ul class=&quot;sub-menu&quot;&gt;
+                    &lt;li&gt;&lt;a href=&quot;blog-one.html&quot;&gt;Blog one&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;blog-two.html&quot;&gt;Blog two&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;blog-three.html&quot;&gt;Blog three&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;blog-four.html&quot;&gt;Blog four&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;blog-details.html&quot;&gt;Blog details&lt;/a&gt;&lt;/li&gt;
+                  &lt;/ul&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;menu_has_children&quot;&gt;&lt;a href=&quot;#0&quot;&gt;pages&lt;/a&gt;
+                  &lt;ul class=&quot;sub-menu&quot;&gt;
+                    &lt;li&gt;&lt;a href=&quot;about.html&quot;&gt;about us&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;affiliate.html&quot;&gt;affiliate&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;how-to-play.html&quot;&gt;how to play&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;latest-winner.html&quot;&gt;latest winner&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;faq.html&quot;&gt;faq&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;error-404.html&quot;&gt;ERROR-404&lt;/a&gt;&lt;/li&gt;
+                  &lt;/ul&gt;
+                &lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;contact.html&quot;&gt;contact us&lt;/a&gt;&lt;/li&gt;
+              &lt;/ul&gt;
+              &lt;div class=&quot;header-join-part&quot;&gt;
+                &lt;button type=&quot;button&quot; class=&quot;cmn-btn&quot; data-toggle=&quot;modal&quot; data-target=&quot;#exampleModal&quot;&gt;join us&lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/nav&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;&lt;!-- header-bottom end --&gt;
+	    </pre>
+        <p>Here is your main logo code. To add your logo, replace <b>logo.png</b> from <b>images/</b> directory with your logo in PNG format.</p>
+		<pre class="prettyprint">&lt;img src="assets/images/logo.png" alt="site-logo"&gt;</pre><br />
+	
+<br />
+	<h3>Support</h3>
+	<p>If you have any questions, feel free to contact us at <a href="https://themeforest.net/user/pixelaxis/portfolio"><b>pixelaxis</b></a>.</p>
+	
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="">
+    <p> &copy; Copyright <a href="https://themeforest.net/user/pixelaxis/portfolio"><b>pixelaxis</b></a>, 2019. All Rights Reserved.</p>
+  </div>
+</footer>
+</div>
+<script src="js/jquery.min.js"></script> 
+<script type="text/javascript" src="js/prettify/prettify.js"></script> 
+<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css&skin=sunburst"></script>
+<script src="js/layout.js"></script>
+</body>
+</html>
