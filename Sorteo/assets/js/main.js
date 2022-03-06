@@ -110,13 +110,13 @@
   });
 
   // countdown plungin init
-  $('.draw-timer').countdown('2019/6/10', function(event) {
-    $(this).html(event.strftime(''
-      +'<div><span>%D</span><p>days</p></div>'
-      +'<div><span>%H</span><p>hrs</p></div>'
-      +'<div><span>%M</span><p>mins</p></div>'
-      +'<div><span>%S</span><p>sec</p></div>'));
-  });
+  // $('.draw-timer').countdown('2019/6/10', function(event) {
+  //   $(this).html(event.strftime(''
+  //     +'<div><span>%D</span><p>days</p></div>'
+  //     +'<div><span>%H</span><p>hrs</p></div>'
+  //     +'<div><span>%M</span><p>mins</p></div>'
+  //     +'<div><span>%S</span><p>sec</p></div>'));
+  // });
 
   $('#remainTime1').countdown('2019/08/10', function(event) {
     $(this).html(event.strftime('%D days %H:%M:%S'));
