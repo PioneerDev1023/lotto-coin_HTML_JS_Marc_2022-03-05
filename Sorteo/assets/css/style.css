@@ -2477,9 +2477,9 @@ div[class*="position"] .details .area {
   width: 40px;
   height: 40px;
   font-size: 24px;
-  background-image: -moz-linear-gradient( 180deg, rgb(51,181,247) 0%, rgb(42,175,242) 100%);
+  /* background-image: -moz-linear-gradient( 180deg, rgb(51,181,247) 0%, rgb(42,175,242) 100%);
   background-image: -webkit-linear-gradient( 180deg, rgb(51,181,247) 0%, rgb(42,175,242) 100%);
-  background-image: -ms-linear-gradient( 180deg, rgb(51,181,247) 0%, rgb(42,175,242) 100%);
+  background-image: -ms-linear-gradient( 180deg, rgb(51,181,247) 0%, rgb(42,175,242) 100%); */
   box-shadow: -0.707px 0.707px 9.5px 0.5px rgba(6, 97, 144, 0.3);
   border-color: 1px solid rgba(198, 198, 198, 0.5);
   color: #ffffff;
