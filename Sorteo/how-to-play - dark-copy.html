@@ -1,77 +1,522 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sorteo - Lotto HTML template</title>
-    <!-- site favicon -->
-    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.jpg">
-    <!-- fontawesome css link -->
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-    <!-- bootstrap css link -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- animate css link -->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <!-- lightcase css link -->
-    <link rel="stylesheet" href="assets/css/lightcase.css">
-    <!-- slick css link -->
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <!-- swiper css link -->
-    <link rel="stylesheet" href="assets/css/swiper.min.css">
-    <!-- flipclock css link -->
-    <link rel="stylesheet" href="assets/css/flipclock.css">
-    <!-- jqvmap css link -->
-    <link rel="stylesheet" href="assets/css/jqvmap.min.css">
-    <!-- main style css link -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- dark version css -->
-    <link rel="stylesheet" href="assets/css/dark-version.css">
-    <!-- responsive css link -->
-    <link rel="stylesheet" href="assets/css/responsive.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sorteo - Lotto HTML template</title>
+  <!-- site favicon -->
+  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.jpg">
+  <!-- fontawesome css link -->
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <!-- bootstrap css link -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- animate css link -->
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <!-- lightcase css link -->
+  <link rel="stylesheet" href="assets/css/lightcase.css">
+  <!-- slick css link -->
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <!-- swiper css link -->
+  <link rel="stylesheet" href="assets/css/swiper.min.css">
+  <!-- flipclock css link -->
+  <link rel="stylesheet" href="assets/css/flipclock.css">
+  <!-- jqvmap css link -->
+  <link rel="stylesheet" href="assets/css/jqvmap.min.css">
+  <!-- main style css link -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- dark version css -->
+  <link rel="stylesheet" href="assets/css/dark-version.css">
+  <!-- responsive css link -->
+  <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
+
 <body>
 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZ6G8LM"
-              height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
-  
-    <app-root _nghost-xkd-c10="" ng-version="10.0.14"><alert _ngcontent-xkd-c10="" class="cm-alert-ontop-loader"><!----></alert><ngx-ui-loader _ngcontent-xkd-c10="" _nghost-xkd-c8=""><!----><div _ngcontent-xkd-c8="" class="ngx-overlay" style="background-color: rgba(40, 40, 40, 0.8); border-radius: 0px;"><!----><div _ngcontent-xkd-c8="" class="ngx-foreground-spinner center-center" style="color: rgb(255, 255, 255); width: 60px; height: 60px; top: 50%;"><div _ngcontent-xkd-c8="" class="sk-three-strings"><div _ngcontent-xkd-c8=""></div><div _ngcontent-xkd-c8=""></div><div _ngcontent-xkd-c8=""></div><!----></div><!----><!----></div><div _ngcontent-xkd-c8="" class="ngx-loading-text center-center" style="top: 50%; color: rgb(255, 255, 255);"></div></div><div _ngcontent-xkd-c8="" class="ngx-background-spinner center-center" style="width: 60px; height: 60px; color: rgba(0, 0, 0, 0.1); opacity: 0.5;"><div _ngcontent-xkd-c8="" class="sk-ball-spin-clockwise"><div _ngcontent-xkd-c8=""></div><div _ngcontent-xkd-c8=""></div><div _ngcontent-xkd-c8=""></div><div _ngcontent-xkd-c8=""></div><div _ngcontent-xkd-c8=""></div><div _ngcontent-xkd-c8=""></div><div _ngcontent-xkd-c8=""></div><div _ngcontent-xkd-c8=""></div><!----></div><!----><!----></div></ngx-ui-loader><router-outlet _ngcontent-xkd-c10=""></router-outlet><app-play class="ng-star-inserted"><div class="main-dark-version"><common-header _nghost-xkd-c12=""><header _ngcontent-xkd-c12="" id="main-header-page" class="header-section sticky animated fadeInDown"><div _ngcontent-xkd-c12="" class="header-bottom"><div _ngcontent-xkd-c12="" class="container-fluid"><nav _ngcontent-xkd-c12="" class="navbar navbar-expand-xl"><a _ngcontent-xkd-c12="" class="site-logo site-title" href="/"><img _ngcontent-xkd-c12="" src="assets/images/logo.png" alt="site-logo"></a><button _ngcontent-xkd-c12="" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span _ngcontent-xkd-c12="" class="menu-toggle"></span></button><div _ngcontent-xkd-c12="" id="navbarSupportedContent" class="collapse navbar-collapse"><ul _ngcontent-xkd-c12="" class="navbar-nav main-menu ml-auto d-flex flex-wrap align-items-center"><li _ngcontent-xkd-c12=""><a _ngcontent-xkd-c12="" href="/">Home</a></li><li _ngcontent-xkd-c12=""><a _ngcontent-xkd-c12="" href="/ticket">buy ticket</a></li><li _ngcontent-xkd-c12=""><a _ngcontent-xkd-c12="" href="/play">how to play</a></li><li _ngcontent-xkd-c12=""><a _ngcontent-xkd-c12="" href="/result">results</a></li><li _ngcontent-xkd-c12=""><a _ngcontent-xkd-c12="" href="/faq">faq</a></li><li _ngcontent-xkd-c12=""><a _ngcontent-xkd-c12="" href="/about">about us</a></li><li _ngcontent-xkd-c12=""><a _ngcontent-xkd-c12="" href="/view-ticket">view ticket</a></li><li _ngcontent-xkd-c12=""><a _ngcontent-xkd-c12="" href="javascript:void()" class="cm-top-btn">Connect to a wallet</a></li><!----></ul></div></nav></div></div></header><button _ngcontent-xkd-c12="" id="trbuttons" type="button" data-toggle="modal" data-target="#exampleModals" class="btn btn-primary" style="display: none;"></button><div _ngcontent-xkd-c12="" id="exampleModals" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal fade"><div _ngcontent-xkd-c12="" role="document" class="modal-dialog modal-dialog-centered"><div _ngcontent-xkd-c12="" class="modal-content"><div _ngcontent-xkd-c12="" class="modal-header" style="border-bottom: 1px solid lightgrey;"><h5 _ngcontent-xkd-c12="" id="exampleModalLabel" class="modal-title" style="color: black;">Connect Wallet</h5><button _ngcontent-xkd-c12="" type="button" data-dismiss="modal" aria-label="Close" class="close"><span _ngcontent-xkd-c12="" aria-hidden="true" class="modal__item-title">×</span></button></div><div _ngcontent-xkd-c12="" class="modal-body text-center p-4" style="display: contents;"><a _ngcontent-xkd-c12="" href="javascript:void()" class="modal__item ng-star-inserted"><span _ngcontent-xkd-c12="" class="modal__item-title"> MetaMask </span><img _ngcontent-xkd-c12="" src="../../assets/images/icon3.svg" alt=""></a><!----><a _ngcontent-xkd-c12="" href="javascript:void()" class="modal__item"><span _ngcontent-xkd-c12="" class="modal__item-title"> WalletConnect </span><img _ngcontent-xkd-c12="" src="../../assets/images/icon5.svg" alt=""></a></div></div></div></div></common-header><common-banner classname="justify-content-center"><section class="inner-page-banner has_bg_image" style="background-image: url(&quot;assets/images/01.jpg&quot;);"><div class="container"><div class="row"><div class="col-lg-12"><div class="inner-page-banner-area"><h1 class="d-flex justify-content-center page-title">How to play</h1><nav aria-label="breadcrumb" class="page-header-breadcrumb"><ol class="breadcrumb"></ol></nav></div></div></div></div></section></common-banner><section class="work-steps-section section-padding pt-5"><div class="container"><div class="row justify-content-center"><div class="col-lg-7"><div class="section-header text-center"><p>To play on MyLottoCoin Dapp, whether you browse from desktop or mobile, you need first to connect your wallet to MyLottoCoin DApp by clicking “Connect to a Wallet” and choosing your preferred wallet. Once your wallet is connected to MyLottoCoin DApp, simply select five main numbers from 1-69 and a single Powerball number from 1-26. You can choose your numbers manually, or with the Quick Pick option</p><p>You can add up to 5 entries per ticket and when you feel lucky with your numbers, click 'Pay Now' and you will be directed to your wallet to make the payment in BNB (BSC). Once the transfer is done, your tickets and numbers are automatically entered and recorded in BSC smart contract for that specific draw. </p><br><h5><i>Ticket sales for the current draw is closed two (2) hours before the drawing countdown ends via a permissionless smart contract logic. Every purchased ticket within this time span, is autonomously considered for the next draw.</i></h5></div></div></div><app-workstepsection><div class="row align-items-center"><div class="col-lg-6"><div class="work-steps-items-part d-flex"><div class="line"><img src="assets/images/elements/line.png" alt="line-image" data-xblocker="passed" style="visibility: visible;"></div><div class="work-steps-item"><div class="work-steps-item-inner"><div class="icon"><img src="assets/images/svg-icons/how-work-icons/1.svg" alt="icon"><span class="count-num">01</span></div><h4 class="title">Pick</h4><p>Pick your lucky numbers</p></div></div><div class="work-steps-item"><div class="work-steps-item-inner"><div class="icon"><img src="assets/images/svg-icons/how-work-icons/2.svg" alt="icon"><span class="count-num">02</span></div><h4 class="title">Pay</h4><p>Pay from BNB wallet of your choice</p></div></div><div class="work-steps-item"><div class="work-steps-item-inner"><div class="icon"><img src="assets/images/svg-icons/how-work-icons/3.svg" alt="icon"><span class="count-num">03</span></div><h4 class="title">Win</h4><p>Start dreaming, you're almost there</p></div></div></div></div><div class="col-lg-6"><div class="work-steps-thumb-part"><img src="assets/images/elements/step.png" width="450" alt="work-step-image" class="img-fluid" data-xblocker="passed" style="visibility: visible;"></div></div></div></app-workstepsection></div></section><section class="reward-section section-padding border-top has_bg_image" style="background-image: url(assets/images/03.jpg);"><div class="container"><div class="row justify-content-center"><div class="col-lg-7"><div class="section-header text-center"><h2 class="section-title">Reward Program (Staking+)</h2><p>MyLottoCoin has introduced a community-centric reward program reconceptualizing the lottery model by a tokenized play-to-earn initiative, as the first of its kind, and empowering players to always be part of the game and win.</p><p>To learn more, visit <a target="_blank" href="https://mylottocoin.medium.com/my-lotto-coin-staking-c5967381e910">www.mylottocoin.io</a></p><p>In a nutshell, For 5 lottery tickets in a single purchase, 10 MYL tokens will be automatically airdropped into the player’s wallet; the same wallet address the payment is made to purchase the tickets.</p><p><b><i>Hodlers of minimum MYL100 throughout each reward quarter, receive 10% of total ticket sale in BNB, in proportion to the circulating tokens, autonomously every 3 months and irrespective of playing games. That is, Hodlers with more MYL will have a bigger share of the reward program. <a href="https://mylottocoin.medium.com/my-lotto-coin-staking-c5967381e910" target="_blank" rel="noopener noreferrer">Click here to learn more</a></i></b></p></div></div></div><div class="row m-bottom-not-30"><div class="col-lg-4 col-md-6"><div class="reward-item text-center"><div class="icon"><img src="assets/images/svg-icons/reward/2.svg" alt="image"></div><div class="content"><h3 class="title">Buy 5 Tickets Per Entry</h3><p>Managed autonomously by the smart contract, for every 5 tickets purchased at one time, players are eligible to receive 10 MYL tokens.</p></div></div></div><div class="col-lg-4 col-md-6"><div class="reward-item text-center"><div class="icon"><img src="assets/images/svg-icons/reward/3.svg" alt="image"></div><div class="content"><h3 class="title">Receive MYL Tokens</h3><p>Players instantly receive 10 MYL tokens in their BSC wallet, the same BSC wallet address the payment is made to purchase the tickets.</p></div></div></div><div class="col-lg-4 col-md-6"><div class="reward-item text-center"><div class="icon"><img src="assets/images/svg-icons/reward/1.svg" alt="image"></div><div class="content"><h3 class="title">Get Rewards in BNB</h3><p>Hodlers of minimum MYL100 throughout each reward quarter, are automatically eligible for MyLottoCoin reward program.</p></div></div></div></div></div></section><section class="work-steps-section border-top section-padding section-bg"><div class="container"><div class="row justify-content-center"><div class="col-lg-7"><div class="section-header text-center"><h2 class="title">Ticket Sale Goes To</h2><p></p><div class="chart-wrap"><div id="piechart"><div style="position: relative;"><div dir="ltr" style="position: relative; width: 635px; height: 400px;"><div style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;" aria-label="A chart."><svg width="635" height="400" aria-label="A chart." style="overflow: hidden;"><defs id="_ABSTRACT_RENDERER_ID_0"></defs><rect x="0" y="0" width="635" height="400" stroke="none" stroke-width="0" fill="#303265"></rect><g><rect x="413" y="161" width="222" height="78" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g column-id="Prize Pool"><rect x="413" y="161" width="222" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="432" y="172.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#ffffff">Prize Pool</text></g><circle cx="420" cy="168" r="7" stroke="none" stroke-width="0" fill="#3366cc"></circle></g><g column-id="Reward Program (Staking+)"><rect x="413" y="184" width="222" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="432" y="195.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#ffffff">Reward Program (Staking+)</text></g><circle cx="420" cy="191" r="7" stroke="none" stroke-width="0" fill="#dc3912"></circle></g><g column-id="Operating, marketing, development"><rect x="413" y="207" width="222" height="32" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="432" y="218.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#ffffff">Operating, marketing,</text><text text-anchor="start" x="432" y="236.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#ffffff">development</text></g><circle cx="420" cy="214" r="7" stroke="none" stroke-width="0" fill="#ff9900"></circle></g></g><g><path d="M177.45898033750314,142.93660902229078L149.64745084375787,57.34152255572698A150,150,0,0,1,196,50L196,140A60,60,0,0,0,177.45898033750314,142.93660902229078" stroke="#ffffff" stroke-width="1" fill="#ff9900"></path><text text-anchor="start" x="166.34526372530806" y="77.29800331778793" font-family="Arial" font-size="13" stroke="none" stroke-width="0" fill="#ffffff">5%</text></g><g><path d="M147.45898033750314,164.7328848624516L74.64745084375788,111.83221215612905A150,150,0,0,1,149.64745084375787,57.34152255572698L177.45898033750314,142.93660902229078A60,60,0,0,0,147.45898033750314,164.7328848624516" stroke="#ffffff" stroke-width="1" fill="#dc3912"></path><text text-anchor="start" x="110.15200205608929" y="104.28333268748013" font-family="Arial" font-size="13" stroke="none" stroke-width="0" fill="#ffffff">10%</text></g><g><path d="M196,140L196,50A150,150,0,1,1,74.64745084375788,111.83221215612905L147.45898033750314,164.7328848624516A60,60,0,1,0,196,140" stroke="#ffffff" stroke-width="1" fill="#3366cc"></path><text text-anchor="start" x="239.7644124471129" y="315.95643220753107" font-family="Arial" font-size="13" stroke="none" stroke-width="0" fill="#ffffff">85%</text></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>Chart thing</th><th>Chart amount</th></tr></thead><tbody><tr><td>Prize Pool</td><td>85</td></tr><tr><td>Reward Program (Staking+)</td><td>10</td></tr><tr><td>Operating, marketing, development</td><td>5</td></tr></tbody></table></div></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 410px; left: 645px; white-space: nowrap; font-family: Arial; font-size: 14px;">development</div><div></div></div></div></div></div></div></div></div></section><section class="work-steps-section section-padding"><div class="container"><div class="row justify-content-center"><div class="col-lg-7"><div class="section-header text-center"><h2 class="title">Prize Breakdown</h2><p></p><table style="color: white;"><tr><th>Prize</th><th>Match</th><th>Payout percentage of prize pool</th></tr><tr><td>1st Prize</td><td>5+PB</td><td>Jackpot (88.8%)</td></tr><tr><td>2nd Prize</td><td>5</td><td>8.88%</td></tr><tr><td>3rd Prize</td><td>4+PB</td><td>1.88%</td></tr><tr><td>4th Prize</td><td>4</td><td>0.22%</td></tr><tr><td>5th Prize</td><td>3+PB</td><td>0.22%</td></tr></table></div></div></div></div></section><section class="question-section border-top section-padding section-bg"><div class="container"><div class="row justify-content-between"><div class="col-lg-4"><div class="thumb text-lg-right text-center"><img src="assets/images/elements/faq.png" alt="image" data-xblocker="passed" style="visibility: visible;"></div></div><div class="col-lg-7"><div class="content"><h2 class="title">Play Responsibly</h2><p>MyLottoCoin encourage everyone to play responsibly and only play as much as they can afford. Since MyLottoCoin is totally decentralized and anonymous, the development team doesn’t have any control on players’ identity, ticket purchases, funds, and prize payouts, therefore we highly encourage players to consider the age limit and taxes wherever it applies based on where they live. MyLottoCoin is neither responsible nor can be held accountable for violating any applicable local, national or international law.</p></div></div></div></div></section><common-footer><footer class="footer-section"><div class="footer-bottom border-top"><div class="container"><div class="row justify-content-between align-items-center"><div class="col-lg-6 col-sm-7"><div class="copy-right-text"><p>© 2022 <a href="/">MyLottoCoin</a> - All Rights Reserved.</p></div></div><div class="col-lg-6 col-sm-5"><ul class="footer-social-links d-flex justify-content-end"><li><a target="_blank" href="https://www.facebook.com/mylottocoin"><i class="fa fa-facebook"></i></a></li><li><a target="_blank" href="https://twitter.com/MyLottoCoin"><i class="fa fa-twitter"></i></a></li><li><a target="_blank" href="https://www.youtube.com/channel/UCAFjinWatF2nlAmpcOAjNWQ"><i class="fa fa-youtube-play"></i></a></li><li><a target="_blank" href="https://www.instagram.com/mylottocoin/"><i class="fa fa-instagram"></i></a></li><li><a target="_blank" href="https://t.me/mylgroup"><i class="fa fa-telegram"></i></a></li></ul></div></div></div></div></footer></common-footer><div class="scroll-to-top"><span class="scroll-icon"><i class="fa fa-angle-up"></i></span></div></div></app-play><!----></app-root>
-  
-    <!-- <script src="assets/js/jquery-3.3.1.min.js"></script> -->
-    <!-- bootstrap js file -->
-    <!-- <script src="assets/js/bootstrap.min.js"></script> -->
-    <!-- flipclock js file -->
-    <!-- <script src="assets/js/flipclock.min.js"></script> -->
-    <!-- countdown js file -->
-    <!-- <script src="assets/js/jquery.countdown.min.js"></script> -->
-    <!-- slick js file -->
-    <!-- <script src="assets/js/slick.min.js"></script> -->
-    <!-- swiper js file -->
-    <!-- <script src="assets/js/swiper.min.js"></script> -->
-    <!-- lightcase js file -->
-    <!-- <script src="assets/js/lightcase.js"></script> -->
-    <!-- wow js file -->
-    <!-- <script src="assets/js/wow.min.js"></script> -->
-    <!-- vamp js files -->
-    <!-- <script src="assets/js/jquery.vmap.min.js"></script> -->
-    <!-- <script src="assets/js/jquery.vmap.world.js"></script> -->
-    <!-- main script js file -->
-    <!-- <script src="assets/js/main.js"></script> -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-180941058-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
-  
-      gtag('config', 'UA-180941058-1');
-    </script>
-  <script src="runtime.89eafff1b284ce4263b4.js" defer=""></script><script src="polyfills.22479565a95de65137cc.js" defer=""></script><script src="scripts.a2dc212cb9823d6e9d01.js" defer=""></script><script src="main.5ba733ad1bacc48e2b86.js" defer=""></script>
-  
-  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script><div class="overlay-container"><div id="toast-container" class="toast-top-right toast-container"></div></div></body>
-</html>  
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZ6G8LM" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <app-root _nghost-xkd-c10="" ng-version="10.0.14">
+    <alert _ngcontent-xkd-c10="" class="cm-alert-ontop-loader">
+      <!---->
+    </alert>
+    <ngx-ui-loader _ngcontent-xkd-c10="" _nghost-xkd-c8="">
+      <!---->
+      <div _ngcontent-xkd-c8="" class="ngx-overlay"
+        style="background-color: rgba(40, 40, 40, 0.8); border-radius: 0px;">
+        <!---->
+        <div _ngcontent-xkd-c8="" class="ngx-foreground-spinner center-center"
+          style="color: rgb(255, 255, 255); width: 60px; height: 60px; top: 50%;">
+          <div _ngcontent-xkd-c8="" class="sk-three-strings">
+            <div _ngcontent-xkd-c8=""></div>
+            <div _ngcontent-xkd-c8=""></div>
+            <div _ngcontent-xkd-c8=""></div>
+            <!---->
+          </div>
+          <!---->
+          <!---->
+        </div>
+        <div _ngcontent-xkd-c8="" class="ngx-loading-text center-center" style="top: 50%; color: rgb(255, 255, 255);">
+        </div>
+      </div>
+      <div _ngcontent-xkd-c8="" class="ngx-background-spinner center-center"
+        style="width: 60px; height: 60px; color: rgba(0, 0, 0, 0.1); opacity: 0.5;">
+        <div _ngcontent-xkd-c8="" class="sk-ball-spin-clockwise">
+          <div _ngcontent-xkd-c8=""></div>
+          <div _ngcontent-xkd-c8=""></div>
+          <div _ngcontent-xkd-c8=""></div>
+          <div _ngcontent-xkd-c8=""></div>
+          <div _ngcontent-xkd-c8=""></div>
+          <div _ngcontent-xkd-c8=""></div>
+          <div _ngcontent-xkd-c8=""></div>
+          <div _ngcontent-xkd-c8=""></div>
+          <!---->
+        </div>
+        <!---->
+        <!---->
+      </div>
+    </ngx-ui-loader>
+    <router-outlet _ngcontent-xkd-c10=""></router-outlet>
+    <app-play class="ng-star-inserted">
+      <div class="main-dark-version">
+        <common-header _nghost-xkd-c12="">
+          <header _ngcontent-xkd-c12="" id="main-header-page" class="header-section sticky animated fadeInDown">
+            <div _ngcontent-xkd-c12="" class="header-bottom">
+              <div _ngcontent-xkd-c12="" class="container-fluid">
+                <nav _ngcontent-xkd-c12="" class="navbar navbar-expand-xl"><a _ngcontent-xkd-c12=""
+                    class="site-logo site-title" href="/"><img _ngcontent-xkd-c12="" src="assets/images/logo.png"
+                      alt="site-logo"></a><button _ngcontent-xkd-c12="" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation" class="navbar-toggler"><span _ngcontent-xkd-c12=""
+                      class="menu-toggle"></span></button>
+                  <div _ngcontent-xkd-c12="" id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul _ngcontent-xkd-c12="" class="navbar-nav main-menu ml-auto d-flex flex-wrap align-items-center">
+                      <li _ngcontent-xkd-c12=""><a _ngcontent-xkd-c12="" href="/">Home</a></li>
+                      <li _ngcontent-xkd-c12=""><a _ngcontent-xkd-c12="" href="/ticket">buy ticket</a></li>
+                      <li _ngcontent-xkd-c12=""><a _ngcontent-xkd-c12="" href="/play">how to play</a></li>
+                      <li _ngcontent-xkd-c12=""><a _ngcontent-xkd-c12="" href="/result">results</a></li>
+                      <li _ngcontent-xkd-c12=""><a _ngcontent-xkd-c12="" href="/faq">faq</a></li>
+                      <li _ngcontent-xkd-c12=""><a _ngcontent-xkd-c12="" href="/about">about us</a></li>
+                      <li _ngcontent-xkd-c12=""><a _ngcontent-xkd-c12="" href="/view-ticket">view ticket</a></li>
+                      <li _ngcontent-xkd-c12=""><a _ngcontent-xkd-c12="" href="javascript:void()"
+                          class="cm-top-btn">Connect to a wallet</a></li>
+                      <!---->
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </header><button _ngcontent-xkd-c12="" id="trbuttons" type="button" data-toggle="modal"
+            data-target="#exampleModals" class="btn btn-primary" style="display: none;"></button>
+          <div _ngcontent-xkd-c12="" id="exampleModals" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true" class="modal fade">
+            <div _ngcontent-xkd-c12="" role="document" class="modal-dialog modal-dialog-centered">
+              <div _ngcontent-xkd-c12="" class="modal-content">
+                <div _ngcontent-xkd-c12="" class="modal-header" style="border-bottom: 1px solid lightgrey;">
+                  <h5 _ngcontent-xkd-c12="" id="exampleModalLabel" class="modal-title" style="color: black;">Connect
+                    Wallet</h5><button _ngcontent-xkd-c12="" type="button" data-dismiss="modal" aria-label="Close"
+                    class="close"><span _ngcontent-xkd-c12="" aria-hidden="true"
+                      class="modal__item-title">×</span></button>
+                </div>
+                <div _ngcontent-xkd-c12="" class="modal-body text-center p-4" style="display: contents;"><a
+                    _ngcontent-xkd-c12="" href="javascript:void()" class="modal__item ng-star-inserted"><span
+                      _ngcontent-xkd-c12="" class="modal__item-title"> MetaMask </span><img _ngcontent-xkd-c12=""
+                      src="../../assets/images/icon3.svg" alt=""></a>
+                  <!----><a _ngcontent-xkd-c12="" href="javascript:void()" class="modal__item"><span
+                      _ngcontent-xkd-c12="" class="modal__item-title"> WalletConnect </span><img _ngcontent-xkd-c12=""
+                      src="../../assets/images/icon5.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </common-header>
+        <common-banner classname="justify-content-center">
+          <section class="inner-page-banner has_bg_image"
+            style="background-image: url(&quot;assets/images/01.jpg&quot;);">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="inner-page-banner-area">
+                    <h1 class="d-flex justify-content-center page-title">How to play</h1>
+                    <nav aria-label="breadcrumb" class="page-header-breadcrumb">
+                      <ol class="breadcrumb"></ol>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </common-banner>
+        <section class="work-steps-section section-padding pt-5">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-7">
+                <div class="section-header text-center">
+                  <p>To play on MyLottoCoin Dapp, whether you browse from desktop or mobile, you need first to connect
+                    your wallet to MyLottoCoin DApp by clicking “Connect to a Wallet” and choosing your preferred
+                    wallet. Once your wallet is connected to MyLottoCoin DApp, simply select five main numbers from 1-69
+                    and a single Powerball number from 1-26. You can choose your numbers manually, or with the Quick
+                    Pick option</p>
+                  <p>You can add up to 5 entries per ticket and when you feel lucky with your numbers, click 'Pay Now'
+                    and you will be directed to your wallet to make the payment in BNB (BSC). Once the transfer is done,
+                    your tickets and numbers are automatically entered and recorded in BSC smart contract for that
+                    specific draw. </p><br>
+                  <h5><i>Ticket sales for the current draw is closed two (2) hours before the drawing countdown ends via
+                      a permissionless smart contract logic. Every purchased ticket within this time span, is
+                      autonomously considered for the next draw.</i></h5>
+                </div>
+              </div>
+            </div>
+            <app-workstepsection>
+              <div class="row align-items-center">
+                <div class="col-lg-6">
+                  <div class="work-steps-items-part d-flex">
+                    <div class="line"><img src="assets/images/elements/line.png" alt="line-image" data-xblocker="passed"
+                        style="visibility: visible;"></div>
+                    <div class="work-steps-item">
+                      <div class="work-steps-item-inner">
+                        <div class="icon"><img src="assets/images/svg-icons/how-work-icons/1.svg" alt="icon"><span
+                            class="count-num">01</span></div>
+                        <h4 class="title">Pick</h4>
+                        <p>Pick your lucky numbers</p>
+                      </div>
+                    </div>
+                    <div class="work-steps-item">
+                      <div class="work-steps-item-inner">
+                        <div class="icon"><img src="assets/images/svg-icons/how-work-icons/2.svg" alt="icon"><span
+                            class="count-num">02</span></div>
+                        <h4 class="title">Pay</h4>
+                        <p>Pay from BNB wallet of your choice</p>
+                      </div>
+                    </div>
+                    <div class="work-steps-item">
+                      <div class="work-steps-item-inner">
+                        <div class="icon"><img src="assets/images/svg-icons/how-work-icons/3.svg" alt="icon"><span
+                            class="count-num">03</span></div>
+                        <h4 class="title">Win</h4>
+                        <p>Start dreaming, you're almost there</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="work-steps-thumb-part"><img src="assets/images/elements/step.png" width="450"
+                      alt="work-step-image" class="img-fluid" data-xblocker="passed" style="visibility: visible;"></div>
+                </div>
+              </div>
+            </app-workstepsection>
+          </div>
+        </section>
+        <section class="reward-section section-padding border-top has_bg_image"
+          style="background-image: url(assets/images/03.jpg);">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-7">
+                <div class="section-header text-center">
+                  <h2 class="section-title">Reward Program (Staking+)</h2>
+                  <p>MyLottoCoin has introduced a community-centric reward program reconceptualizing the lottery model
+                    by a tokenized play-to-earn initiative, as the first of its kind, and empowering players to always
+                    be part of the game and win.</p>
+                  <p>To learn more, visit <a target="_blank"
+                      href="https://mylottocoin.medium.com/my-lotto-coin-staking-c5967381e910">www.mylottocoin.io</a>
+                  </p>
+                  <p>In a nutshell, For 5 lottery tickets in a single purchase, 10 MYL tokens will be automatically
+                    airdropped into the player’s wallet; the same wallet address the payment is made to purchase the
+                    tickets.</p>
+                  <p><b><i>Hodlers of minimum MYL100 throughout each reward quarter, receive 10% of total ticket sale in
+                        BNB, in proportion to the circulating tokens, autonomously every 3 months and irrespective of
+                        playing games. That is, Hodlers with more MYL will have a bigger share of the reward program. <a
+                          href="https://mylottocoin.medium.com/my-lotto-coin-staking-c5967381e910" target="_blank"
+                          rel="noopener noreferrer">Click here to learn more</a></i></b></p>
+                </div>
+              </div>
+            </div>
+            <div class="row m-bottom-not-30">
+              <div class="col-lg-4 col-md-6">
+                <div class="reward-item text-center">
+                  <div class="icon"><img src="assets/images/svg-icons/reward/2.svg" alt="image"></div>
+                  <div class="content">
+                    <h3 class="title">Buy 5 Tickets Per Entry</h3>
+                    <p>Managed autonomously by the smart contract, for every 5 tickets purchased at one time, players
+                      are eligible to receive 10 MYL tokens.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="reward-item text-center">
+                  <div class="icon"><img src="assets/images/svg-icons/reward/3.svg" alt="image"></div>
+                  <div class="content">
+                    <h3 class="title">Receive MYL Tokens</h3>
+                    <p>Players instantly receive 10 MYL tokens in their BSC wallet, the same BSC wallet address the
+                      payment is made to purchase the tickets.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="reward-item text-center">
+                  <div class="icon"><img src="assets/images/svg-icons/reward/1.svg" alt="image"></div>
+                  <div class="content">
+                    <h3 class="title">Get Rewards in BNB</h3>
+                    <p>Hodlers of minimum MYL100 throughout each reward quarter, are automatically eligible for
+                      MyLottoCoin reward program.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="work-steps-section border-top section-padding section-bg">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-7">
+                <div class="section-header text-center">
+                  <h2 class="title">Ticket Sale Goes To</h2>
+                  <p></p>
+                  <div class="chart-wrap">
+                    <div id="piechart">
+                      <div style="position: relative;">
+                        <div dir="ltr" style="position: relative; width: 635px; height: 400px;">
+                          <div style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"
+                            aria-label="A chart."><svg width="635" height="400" aria-label="A chart."
+                              style="overflow: hidden;">
+                              <defs id="_ABSTRACT_RENDERER_ID_0"></defs>
+                              <rect x="0" y="0" width="635" height="400" stroke="none" stroke-width="0" fill="#303265">
+                              </rect>
+                              <g>
+                                <rect x="413" y="161" width="222" height="78" stroke="none" stroke-width="0"
+                                  fill-opacity="0" fill="#ffffff"></rect>
+                                <g column-id="Prize Pool">
+                                  <rect x="413" y="161" width="222" height="14" stroke="none" stroke-width="0"
+                                    fill-opacity="0" fill="#ffffff"></rect>
+                                  <g><text text-anchor="start" x="432" y="172.9" font-family="Arial" font-size="14"
+                                      stroke="none" stroke-width="0" fill="#ffffff">Prize Pool</text></g>
+                                  <circle cx="420" cy="168" r="7" stroke="none" stroke-width="0" fill="#3366cc">
+                                  </circle>
+                                </g>
+                                <g column-id="Reward Program (Staking+)">
+                                  <rect x="413" y="184" width="222" height="14" stroke="none" stroke-width="0"
+                                    fill-opacity="0" fill="#ffffff"></rect>
+                                  <g><text text-anchor="start" x="432" y="195.9" font-family="Arial" font-size="14"
+                                      stroke="none" stroke-width="0" fill="#ffffff">Reward Program (Staking+)</text></g>
+                                  <circle cx="420" cy="191" r="7" stroke="none" stroke-width="0" fill="#dc3912">
+                                  </circle>
+                                </g>
+                                <g column-id="Operating, marketing, development">
+                                  <rect x="413" y="207" width="222" height="32" stroke="none" stroke-width="0"
+                                    fill-opacity="0" fill="#ffffff"></rect>
+                                  <g><text text-anchor="start" x="432" y="218.9" font-family="Arial" font-size="14"
+                                      stroke="none" stroke-width="0" fill="#ffffff">Operating, marketing,</text><text
+                                      text-anchor="start" x="432" y="236.9" font-family="Arial" font-size="14"
+                                      stroke="none" stroke-width="0" fill="#ffffff">development</text></g>
+                                  <circle cx="420" cy="214" r="7" stroke="none" stroke-width="0" fill="#ff9900">
+                                  </circle>
+                                </g>
+                              </g>
+                              <g>
+                                <path
+                                  d="M177.45898033750314,142.93660902229078L149.64745084375787,57.34152255572698A150,150,0,0,1,196,50L196,140A60,60,0,0,0,177.45898033750314,142.93660902229078"
+                                  stroke="#ffffff" stroke-width="1" fill="#ff9900"></path><text text-anchor="start"
+                                  x="166.34526372530806" y="77.29800331778793" font-family="Arial" font-size="13"
+                                  stroke="none" stroke-width="0" fill="#ffffff">5%</text>
+                              </g>
+                              <g>
+                                <path
+                                  d="M147.45898033750314,164.7328848624516L74.64745084375788,111.83221215612905A150,150,0,0,1,149.64745084375787,57.34152255572698L177.45898033750314,142.93660902229078A60,60,0,0,0,147.45898033750314,164.7328848624516"
+                                  stroke="#ffffff" stroke-width="1" fill="#dc3912"></path><text text-anchor="start"
+                                  x="110.15200205608929" y="104.28333268748013" font-family="Arial" font-size="13"
+                                  stroke="none" stroke-width="0" fill="#ffffff">10%</text>
+                              </g>
+                              <g>
+                                <path
+                                  d="M196,140L196,50A150,150,0,1,1,74.64745084375788,111.83221215612905L147.45898033750314,164.7328848624516A60,60,0,1,0,196,140"
+                                  stroke="#ffffff" stroke-width="1" fill="#3366cc"></path><text text-anchor="start"
+                                  x="239.7644124471129" y="315.95643220753107" font-family="Arial" font-size="13"
+                                  stroke="none" stroke-width="0" fill="#ffffff">85%</text>
+                              </g>
+                              <g></g>
+                            </svg>
+                            <div aria-label="A tabular representation of the data in the chart."
+                              style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;">
+                              <table>
+                                <thead>
+                                  <tr>
+                                    <th>Chart thing</th>
+                                    <th>Chart amount</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>Prize Pool</td>
+                                    <td>85</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Reward Program (Staking+)</td>
+                                    <td>10</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Operating, marketing, development</td>
+                                    <td>5</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                        <div aria-hidden="true"
+                          style="display: none; position: absolute; top: 410px; left: 645px; white-space: nowrap; font-family: Arial; font-size: 14px;">
+                          development</div>
+                        <div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="work-steps-section section-padding">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-7">
+                <div class="section-header text-center">
+                  <h2 class="title">Prize Breakdown</h2>
+                  <p></p>
+                  <table style="color: white;">
+                    <tr>
+                      <th>Prize</th>
+                      <th>Match</th>
+                      <th>Payout percentage of prize pool</th>
+                    </tr>
+                    <tr>
+                      <td>1st Prize</td>
+                      <td>5+PB</td>
+                      <td>Jackpot (88.8%)</td>
+                    </tr>
+                    <tr>
+                      <td>2nd Prize</td>
+                      <td>5</td>
+                      <td>8.88%</td>
+                    </tr>
+                    <tr>
+                      <td>3rd Prize</td>
+                      <td>4+PB</td>
+                      <td>1.88%</td>
+                    </tr>
+                    <tr>
+                      <td>4th Prize</td>
+                      <td>4</td>
+                      <td>0.22%</td>
+                    </tr>
+                    <tr>
+                      <td>5th Prize</td>
+                      <td>3+PB</td>
+                      <td>0.22%</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="question-section border-top section-padding section-bg">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-lg-4">
+                <div class="thumb text-lg-right text-center"><img src="assets/images/elements/faq.png" alt="image"
+                    data-xblocker="passed" style="visibility: visible;"></div>
+              </div>
+              <div class="col-lg-7">
+                <div class="content">
+                  <h2 class="title">Play Responsibly</h2>
+                  <p>MyLottoCoin encourage everyone to play responsibly and only play as much as they can afford. Since
+                    MyLottoCoin is totally decentralized and anonymous, the development team doesn’t have any control on
+                    players’ identity, ticket purchases, funds, and prize payouts, therefore we highly encourage players
+                    to consider the age limit and taxes wherever it applies based on where they live. MyLottoCoin is
+                    neither responsible nor can be held accountable for violating any applicable local, national or
+                    international law.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <common-footer>
+          <footer class="footer-section">
+            <div class="footer-bottom border-top">
+              <div class="container">
+                <div class="row justify-content-between align-items-center">
+                  <div class="col-lg-6 col-sm-7">
+                    <div class="copy-right-text">
+                      <p>© 2022 <a href="/">MyLottoCoin</a> - All Rights Reserved.</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-5">
+                    <ul class="footer-social-links d-flex justify-content-end">
+                      <li><a target="_blank" href="https://www.facebook.com/mylottocoin"><i
+                            class="fa fa-facebook"></i></a></li>
+                      <li><a target="_blank" href="https://twitter.com/MyLottoCoin"><i class="fa fa-twitter"></i></a>
+                      </li>
+                      <li><a target="_blank" href="https://www.youtube.com/channel/UCAFjinWatF2nlAmpcOAjNWQ"><i
+                            class="fa fa-youtube-play"></i></a></li>
+                      <li><a target="_blank" href="https://www.instagram.com/mylottocoin/"><i
+                            class="fa fa-instagram"></i></a></li>
+                      <li><a target="_blank" href="https://t.me/mylgroup"><i class="fa fa-telegram"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </common-footer>
+        <div class="scroll-to-top"><span class="scroll-icon"><i class="fa fa-angle-up"></i></span></div>
+      </div>
+    </app-play>
+    <!---->
+  </app-root>
+
+  <!-- <script src="assets/js/jquery-3.3.1.min.js"></script> -->
+  <!-- bootstrap js file -->
+  <!-- <script src="assets/js/bootstrap.min.js"></script> -->
+  <!-- flipclock js file -->
+  <!-- <script src="assets/js/flipclock.min.js"></script> -->
+  <!-- countdown js file -->
+  <!-- <script src="assets/js/jquery.countdown.min.js"></script> -->
+  <!-- slick js file -->
+  <!-- <script src="assets/js/slick.min.js"></script> -->
+  <!-- swiper js file -->
+  <!-- <script src="assets/js/swiper.min.js"></script> -->
+  <!-- lightcase js file -->
+  <!-- <script src="assets/js/lightcase.js"></script> -->
+  <!-- wow js file -->
+  <!-- <script src="assets/js/wow.min.js"></script> -->
+  <!-- vamp js files -->
+  <!-- <script src="assets/js/jquery.vmap.min.js"></script> -->
+  <!-- <script src="assets/js/jquery.vmap.world.js"></script> -->
+  <!-- main script js file -->
+  <!-- <script src="assets/js/main.js"></script> -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-180941058-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-180941058-1');
+  </script>
+  <script src="runtime.89eafff1b284ce4263b4.js" defer=""></script>
+  <script src="polyfills.22479565a95de65137cc.js" defer=""></script>
+  <script src="scripts.a2dc212cb9823d6e9d01.js" defer=""></script>
+  <script src="main.5ba733ad1bacc48e2b86.js" defer=""></script>
+
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <div class="overlay-container">
+    <div id="toast-container" class="toast-top-right toast-container"></div>
+  </div>
+</body>
+
+</html>
